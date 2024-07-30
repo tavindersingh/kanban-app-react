@@ -30,9 +30,9 @@ const DashboardPage = () => {
         <div className="h-full p-6">
           <TasksGrid
             columns={[
-              { id: 1, title: "Todo", color: "#47c2e6" },
-              { id: 2, title: "Doing", color: "#8370f4" },
-              { id: 3, title: "Done", color: "#6ae6b0" },
+              { id: 1, boardId: 1, title: "Todo", color: "#47c2e6" },
+              { id: 2, boardId: 1, title: "Doing", color: "#8370f4" },
+              { id: 3, boardId: 1, title: "Done", color: "#6ae6b0" },
             ]}
           />
         </div>

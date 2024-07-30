@@ -18,17 +18,20 @@ const TasksGrid: React.FC<TasksGridProps> = ({ columns }) => {
             {
               title: "Task 1",
               slug: "task-1",
-              status: 1,
+              columnId: 1,
+              boardId: 1,
             },
             {
               title: "Task 2",
               slug: "task-2",
-              status: 1,
+              columnId: 1,
+              boardId: 1,
             },
             {
               title: "Task 3",
               slug: "task-3",
-              status: 1,
+              columnId: 1,
+              boardId: 1,
             },
           ]}
         />

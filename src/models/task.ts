@@ -1,5 +1,6 @@
 export interface Task {
   title: string;
-  slug: string;
-  status: number;
+  slug?: string;
+  columnId: number;
+  boardId: number;
 }

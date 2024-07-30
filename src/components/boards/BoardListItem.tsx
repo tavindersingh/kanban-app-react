@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Board } from "../../assets/board";
+import { Board } from "../../models/board";
 
 type BoardListItemProps = {
   board: Board;

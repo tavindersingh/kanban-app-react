@@ -1,4 +1,4 @@
-import { Board } from "../../assets/board";
+import { Board } from "../../models/board";
 
 export default function boardReducer(state, action) {
   const boardsList: Board[] = [
